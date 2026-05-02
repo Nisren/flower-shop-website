@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login | Paris Flowers</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="website_templatecss.css">
+</head>
+
+<body class="auth-body">
+
+<div class="auth-card fade-card">
+  <a href="website_template.html">
+    <img src="images/FLOWER0.png" class="auth-logo" alt="Logo">
+  </a>
+
+  <h2>Welcome Back</h2>
+  <p>Login to continue shopping</p>
+
+  <form onsubmit="return loginUser()">
+    <div class="form-group text-left">
+      <label>Email</label>
+      <input type="email" id="loginEmail" class="form-control" required>
+    </div>
+
+    <div class="form-group text-left">
+      <label>Password</label>
+      <input type="password" id="loginPassword" class="form-control" required>
+    </div>
+
+    <button class="auth-btn" type="submit">Login</button>
+  </form>
+
+  <p class="auth-link">Don't have an account? <a href="registration1a.html">Register</a></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

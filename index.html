@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop | Paris Flowers</title>
+
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="website_templatecss.css">
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-md navbar-light main-navbar">
+  <div class="container nav-container">
+    <a class="navbar-brand" href="website_template.html">
+      <img src="images/FLOWER0.png" alt="Paris Flowers">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav">
+      <i class="fa fa-bars"></i>
+    </button>
+
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav nav-menu">
+        <li class="nav-item"><a class="nav-link" href="website_template.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="website_template.html#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link active" href="index.html">Shop</a></li>
+        <li class="nav-item"><a class="nav-link" href="website_template.html#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="website_template.html#contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <form class="nav-search" onsubmit="return false;">
+          <input type="text" id="searchInput" placeholder="Search...">
+        </form>
+
+        <a class="cart-button" href="cart.html">
+          <i class="fa fa-shopping-cart"></i>
+          <span class="my-cart-badge">0</span>
+        </a>
+
+        <div id="userArea"></div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<section class="shop-hero">
+  <div class="container text-center">
+    <h1>Flower Shop</h1>
+    <p>Choose your favorite bouquet and add it to your cart.</p>
+  </div>
+</section>
+
+<section class="section-padding">
+  <div class="container">
+
+    <div class="filters text-center">
+      <button class="filter-btn active" data-category="all">All</button>
+      <button class="filter-btn" data-category="roses">Roses</button>
+      <button class="filter-btn" data-category="wedding">Wedding</button>
+      <button class="filter-btn" data-category="graduation">Graduation</button>
+      <button class="filter-btn" data-category="gifts">Gifts</button>
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-4 product-item fade-card" data-name="rose bouquet" data-category="roses">
+        <div class="product-card">
+          <span class="product-badge">Best Seller</span>
+          <a href="product.html?id=1"><img src="images/rose.png" alt="Rose Bouquet"></a>
+          <h4>Rose Bouquet</h4>
+          <p>Elegant red roses for romantic occasions.</p>
+          <h5>$25</h5>
+          <a href="product.html?id=1" class="details-link">View Details</a>
+          <button class="btn-buy add-to-cart" data-id="1" data-name="Rose Bouquet" data-price="25" data-image="images/rose.png">Add To Cart</button>
+        </div>
+      </div>
+
+      <div class="col-md-4 product-item fade-card" data-name="tulip bouquet" data-category="gifts">
+        <div class="product-card">
+          <span class="product-badge">New</span>
+          <a href="product.html?id=2"><img src="images/rose2.png" alt="Tulip Bouquet"></a>
+          <h4>Tulip Bouquet</h4>
+          <p>Fresh tulips with soft and beautiful colors.</p>
+          <h5>$30</h5>
+          <a href="product.html?id=2" class="details-link">View Details</a>
+          <button class="btn-buy add-to-cart" data-id="2" data-name="Tulip Bouquet" data-price="30" data-image="images/rose2.png">Add To Cart</button>
+        </div>
+      </div>
+
+      <div class="col-md-4 product-item fade-card" data-name="wedding flowers" data-category="wedding">
+        <div class="product-card">
+          <span class="product-badge">Luxury</span>
+          <a href="product.html?id=3"><img src="images/rose3.png" alt="Wedding Flowers"></a>
+          <h4>Wedding Flowers</h4>
+          <p>Romantic floral design for wedding celebrations.</p>
+          <h5>$50</h5>
+          <a href="product.html?id=3" class="details-link">View Details</a>
+          <button class="btn-buy add-to-cart" data-id="3" data-name="Wedding Flowers" data-price="50" data-image="images/rose3.png">Add To Cart</button>
+        </div>
+      </div>
+
+      <div class="col-md-4 product-item fade-card" data-name="yellow flowers" data-category="gifts">
+        <div class="product-card">
+          <a href="product.html?id=4"><img src="images/yellow.jpg" alt="Yellow Flowers"></a>
+          <h4>Yellow Flowers</h4>
+          <p>Bright flowers for friendship and happy moments.</p>
+          <h5>$22</h5>
+          <a href="product.html?id=4" class="details-link">View Details</a>
+          <button class="btn-buy add-to-cart" data-id="4" data-name="Yellow Flowers" data-price="22" data-image="images/yellow.jpg">Add To Cart</button>
+        </div>
+      </div>
+
+      <div class="col-md-4 product-item fade-card" data-name="rose formation" data-category="roses">
+        <div class="product-card">
+          <a href="product.html?id=5"><img src="images/Rose formation.JPG" alt="Rose Formation"></a>
+          <h4>Rose Formation</h4>
+          <p>Custom rose arrangements in letters and shapes.</p>
+          <h5>$45</h5>
+          <a href="product.html?id=5" class="details-link">View Details</a>
+          <button class="btn-buy add-to-cart" data-id="5" data-name="Rose Formation" data-price="45" data-image="images/Rose formation.JPG">Add To Cart</button>
+        </div>
+      </div>
+
+      <div class="col-md-4 product-item fade-card" data-name="graduation flowers" data-category="graduation">
+        <div class="product-card">
+          <span class="product-badge">Popular</span>
+          <a href="product.html?id=6"><img src="images/Graduation flowers.JPG" alt="Graduation Flowers"></a>
+          <h4>Graduation Flowers</h4>
+          <p>Special bouquets to celebrate graduation success.</p>
+          <h5>$35</h5>
+          <a href="product.html?id=6" class="details-link">View Details</a>
+          <button class="btn-buy add-to-cart" data-id="6" data-name="Graduation Flowers" data-price="35" data-image="images/Graduation flowers.JPG">Add To Cart</button>
+        </div>
+      </div>
+
+    </div>
+
+    <p id="noResults" class="no-results">No products found</p>
+  </div>
+</section>
+
+<footer class="footer-section simple-footer">
+  <div class="container text-center">
+    <p>© 2026 Paris Flowers. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<script src="jquery-2.2.3.min.js"></script>
+<script src="bootstrap.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
