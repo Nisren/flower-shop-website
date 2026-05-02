@@ -90,6 +90,7 @@ body {
 }
 
 .cart-button {
+    margin-left: 30px;
   color: #333;
   font-size: 18px;
   text-decoration: none !important;
