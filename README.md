@@ -35,10 +35,6 @@ Paris Flowers is a responsive front-end flower shop website built with HTML, CSS
 - `login1a.html` — Login page
 - `registration1a.html` — Register page
 
-## Live Demo
-
-https://flower-shop-websit.netlify.app/
-
 ## Author
 
 Nisrein Falwat
